@@ -1,4 +1,3 @@
-/* Основные стили */
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a2e;
@@ -10,12 +9,12 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
 .comic-text {
-  font-family: 'Comic Neue', cursive; /* комиксный шрифт */
-  font-size: 28px;                     /* большой размер */
-  color: #FFD700;                      /* ярко-желтый */
-  font-weight: 70;                     /* жирный */
+  font-family: 'Comic Neue', cursive;
+  font-size: 28px;                    
+  color: #FFD700;                      
+  font-weight: 70;                     
   text-shadow:
-     2px 1px 0 black,  /*обводка вокруг*/
+     2px 1px 0 black,
     -1px 2px 0 black,
      1px -2px 0 black,
     -1px -2px 0 black; 
@@ -26,9 +25,6 @@ body {
   float: left;
   width: 45%;
 }
-
-
-
 .imgg{
     height: 389px;
     width: 100%;
@@ -36,7 +32,7 @@ body {
   background-repeat: no-repeat;
     background-image: url("images/8f6d27cadb34d30d8b94f5406b29c4d0.jpg");
 }
-/* Заголовки */
+
 h1 {
     font-family: 'Comic Sans MS', cursive;
     color: #e94560;
@@ -44,14 +40,12 @@ h1 {
     font-size: 40px;
     text-shadow: 2px 2px black;
 }
-
 h2 {
     color: #00d4ff;
     font-family: 'Comic Sans MS', cursive;
     text-align: center;
     font-size: 18px;
 }
-
 h3 {
     font-family: 'Comic Sans MS', cursive;
     color: #0d8c95;
@@ -60,16 +54,12 @@ h3 {
     margin-top: 30px;
     margin-right: 100px;
 }
-
-/* Параграфы */
 p {
     font-family: 'Comic Sans MS', cursive;
     line-height: 1.6;
     font-size: 18px;
     margin: 15px 0;
 }
-
-/* Изображения */
 img {
     width: 100%;
     max-width: 600px;
@@ -77,8 +67,6 @@ img {
     display: block;
     margin: 20px auto;
 }
-
-/* Цитаты */
 .quote {
     background-color: rgb(194, 232, 255);
     color: black;
@@ -90,8 +78,6 @@ img {
     font-size: 20px;
     text-align: center;
 }
-
-/* Списки */
 ul, ol {
 
   font-family: cursive, sans-serif; 
@@ -108,7 +94,7 @@ ul li, ol li {
     margin: 10px 0;
 }
 
-/* Таблицы */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -132,7 +118,7 @@ td {
 }
 
 
-/* Комиксные панели */
+
 .panels {
     display: flex;/*чтоб горизонтально подряд встали*/
     gap: 80px;
@@ -157,12 +143,6 @@ td {
     width: 100%;
 }
 
-.panel p {
-    margin: 0;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
-}
 .columns {
   display: flex;
   gap: 180px;
